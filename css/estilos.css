@@ -246,6 +246,16 @@ Valores: Esperan recibir a manera de variables
     flex-shrink: 0;
   }
   
+  .project-url a{
+      background-color: #056fff;
+      margin: 0 20px;
+      padding: 5px 21px;
+      border-radius: 10px;
+      border: black solid 2px;
+      text-decoration: none;
+      color: white;
+  }
+
   .footer {
     color: white;
     background-color: #ff4301;
@@ -298,11 +308,20 @@ Valores: Esperan recibir a manera de variables
   .event-url {
     color: #056fff;
     border: 1px solid;
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
     text-decoration: none;
     border-radius: 5px;
+    margin-top: 10px;
   }
-  
+ 
+  .lista-pract{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .lista-pract li{
+      margin-top: 15px;
+  }
   .contact {
     background-color: #056fff;
     color: white;
