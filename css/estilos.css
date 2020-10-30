@@ -491,6 +491,20 @@ Valores: Esperan recibir a manera de variables
   }
   
   @media screen and (max-width: 767px) {
+    .header {
+      background-color: #ff4301;
+      color: white;
+      display: flex;
+      height: 70px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      position: fixed;
+      z-index: 3;
+      width: 100%;
+      /* left: 5px;
+      top: 5px; */
+    }
     .hero{
       height: auto;
     }
