@@ -196,6 +196,11 @@ Valores: Esperan recibir a manera de variables
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    /* left: 5px;
+    top: 5px; */
   }
   
   ol,
@@ -426,8 +431,20 @@ Valores: Esperan recibir a manera de variables
     .container {
       padding: 0 1em;
     }
+    .header{
+      background-color: #ff4301;
+      color: white;
+      display: flex;
+      height: 70px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      position: fixed;
+      z-index: 4;
+      width: 100%;
+    }
     .hero {
-      height: auto;
+      /* height: auto; */
       position: relative;
       overflow: hidden;
       padding: 2em;
@@ -437,7 +454,7 @@ Valores: Esperan recibir a manera de variables
       z-index: 1;
       left: 0;
       right: 0;
-      top: 0;
+      /* top: 0px; */
       bottom: 0;
       width: 100%;
     }
@@ -474,6 +491,12 @@ Valores: Esperan recibir a manera de variables
   }
   
   @media screen and (max-width: 767px) {
+    .hero{
+      height: auto;
+    }
+    .hero-image{
+      top: 0px;
+    }
     h2 {
       font-size: 1.2em;
       margin: .5em 0;
